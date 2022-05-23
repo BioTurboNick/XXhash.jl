@@ -1,4 +1,6 @@
 module XXhash
+
+using xxHash_jll
 #
 export xxh32, XXH32stream, xxh64, XXH64stream,
        xxhash_update, xxhash_digest,
